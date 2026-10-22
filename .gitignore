@@ -23,3 +23,8 @@
 # Logs
 /*.log
 
+# Upstream archive cache and staging
+/camxcommon-headers_*.tar.gz
+/camxcommon-headers_*.tar.gz.tmp
+/camxcommon-headers/
+

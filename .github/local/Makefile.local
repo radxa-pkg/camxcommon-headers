@@ -1,0 +1,5 @@
+.PHONY: stage-headers
+stage-headers:
+	bash scripts/update-camxcommon-headers.sh
+
+main_build: stage-headers

@@ -1,0 +1,2 @@
+# Preserve the original Qualcomm header bytes; non-UTF-8 text is in comments.
+camxcommon-headers: national-encoding [usr/include/camx-v1/icpdefs.h]

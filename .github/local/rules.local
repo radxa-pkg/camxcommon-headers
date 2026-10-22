@@ -1,0 +1,10 @@
+# Keep this override empty to prevent dh_auto_build from running make
+# and staging headers twice; override_dh_install handles staging below.
+override_dh_auto_build:
+
+override_dh_install:
+	$(MAKE) stage-headers
+	dh_install
+
+override_dh_missing:
+	dh_missing --fail-missing

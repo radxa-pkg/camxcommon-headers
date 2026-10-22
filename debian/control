@@ -9,12 +9,14 @@ Build-Depends: debhelper-compat (= 13),
                lintian,
                dh-exec,
                pandoc,
+               curl,
 
 Package: camxcommon-headers
 Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
-Description: camxcommon-headers
- This package provides the camxcommon-headers.
+Description: Qualcomm CamX common development headers
+ Headers shared by Qualcomm CamX camera stacks, including the camx-v1
+ and camx-v2 interfaces used to build the camera service.
 
