@@ -12,7 +12,7 @@ Build-Depends: debhelper-compat (= 13),
                curl,
 
 Package: camxcommon-headers
-Architecture: all
+Architecture: any
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
