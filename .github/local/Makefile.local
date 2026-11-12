@@ -1,3 +1,7 @@
+CUSTOM_DEBUILD_ARG := -aarm64 -Pcross
+
+post_build_dep: arm64_crossbuild_dep
+
 .PHONY: stage-headers
 stage-headers:
 	bash scripts/update-camxcommon-headers.sh
